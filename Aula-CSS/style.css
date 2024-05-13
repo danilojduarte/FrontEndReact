@@ -12,19 +12,34 @@ h1 {
     width: 200px;
     height: 200px;
     background: blue;
+    color: white;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 50%;
+    text-align: center;
+    
 }
 .box-2 {
     width: 200px;
     height: 200px;
     background: black;
+    color: white;
+    font-size: 12px;
 }
 .box-3 {
     width: 200px;
     height: 200px;
     background: green;
+    color: white;
+    font-size: 12px;
 }
 .box-4 {
     width: 200px;
     height: 200px;
     background: red;
+    color: white;
+    font-size: 12px;
 }
