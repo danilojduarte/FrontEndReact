@@ -54,3 +54,18 @@ header #navbar .nav-list .nav-item a {
 header #navbar .nav-list .nav-item a:hover {
   color: #777;
 }
+
+/* Section Banner */
+main {
+  margin-top: 6rem;
+}
+#banner {
+  display: flex;
+  max-width:  1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+#banner .banner-content .banner-content-title {
+  font-size: 44px;
+  font-weight: 700;
+}
