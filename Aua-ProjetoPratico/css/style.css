@@ -80,3 +80,17 @@ main #banner {
   max-width: 500px;
   margin-bottom: 28px;
 }
+#banner .banner-content .banner-content-btn {
+  background-color: #00a8cc;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 24px;
+  border: none;
+}
+#banner .banner-img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 400px;
+}
