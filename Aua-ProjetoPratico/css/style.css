@@ -94,3 +94,14 @@ main #banner {
   width: 100%;
   max-width: 400px;
 }
+
+/* Section Posts */
+section#posts {
+  margin-top: 71px;
+  background-color: #edf7fa;
+}
+#posts .posts-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
