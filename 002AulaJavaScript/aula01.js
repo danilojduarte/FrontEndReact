@@ -1,14 +1,15 @@
 // Tipos de variaveis
-var nomeDoAluno = "Danilo Duarte";
-var idade = 49;
-var altura = 1.69;
-var estudante = true;
+// var nomeDoAluno = "Danilo Duarte";
+// var idade = 49;
+// var altura = 1.69;
+// var estudante = true;
 
-console.log(nomeDoAluno, typeof nomeDoAluno);
+// console.log(nomeDoAluno, typeof nomeDoAluno);
 
-console.log(idade, typeof idade);
-console.log(altura, typeof altura);
-console.log(estudante, typeof estudante);
+// console.log(idade, typeof idade);
+// console.log(altura, typeof altura);
+// console.log(estudante, typeof estudante);
+
 
 
 
