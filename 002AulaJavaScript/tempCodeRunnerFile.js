@@ -1,5 +1,5 @@
-const numero1 = 10;
-const numero2 = 10;
+const prompt = require('readline-sync');
 
+const idade = Number(prompt.question('Qual eh a sua idade? '))
 
-console.log(numero1 !== numero2)
+const ehMaiorDeIdade = idade >= 18;
