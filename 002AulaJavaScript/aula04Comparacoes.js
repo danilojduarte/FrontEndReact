@@ -1,10 +1,16 @@
+
+const a = 3;
+const b = -4;
+
+
+
 // Operador Ternário
 
-const idade = 14;
+// const idade = 14;
 
-const mensagem = idade>= 18 ? "Maior de idade" : "Menor deidade";
+// const mensagem = idade>= 18 ? "Maior de idade" : "Menor deidade";
 
-console.log(mensagem)
+// console.log(mensagem)
 
 
 // Switch Card
