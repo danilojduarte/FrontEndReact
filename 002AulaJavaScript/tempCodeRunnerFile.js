@@ -1,5 +1,5 @@
-const prompt = require('readline-sync');
+const idade = 14;
 
-const idade = Number(prompt.question('Qual eh a sua idade? '))
+const mensagem = idade>= 18 ? "Maior de idade" : "Menor deidade";
 
-const ehMaiorDeIdade = idade >= 18;
+console.log(mensagem)

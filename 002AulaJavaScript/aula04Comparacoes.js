@@ -1,25 +1,29 @@
+// Operador Ternário
+
+const idade = 14;
+
+const mensagem = idade>= 18 ? "Maior de idade" : "Menor deidade";
+
+console.log(mensagem)
+
+
 // Switch Card
 
-const permissoes = 'admin';
+// const permissoes = 'admin';
 
-switch (permissoes) {
-  case "aluno":
-    console.log("Você só pode visualizar as aulas.");
-    break;
-  case "professor":
-    console.log("Você pode alterar as aulas eadicionar exercícios.");
-    break;
-  case "admin":
-    console.log("Você pode fazer o que quiser no sistema.");
-    break;
-    default;
-    console.log("Não sei quem você é no sistema");
-}
-
-
-
-
-
+// switch (permissoes) {
+//   case "aluno":
+//     console.log("Você só pode visualizar as aulas.");
+//     break;
+//   case "professor":
+//     console.log("Você pode alterar as aulas eadicionar exercícios.");
+//     break;
+//   case "admin":
+//     console.log("Você pode fazer o que quiser no sistema.");
+//     break;
+//     default:
+//     console.log("Não sei quem você é no sistema");
+// }
 
 
 
