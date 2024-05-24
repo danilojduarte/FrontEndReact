@@ -1,15 +1,22 @@
 const prompt = require("readline-sync");
 
+while (true) {
+  console.log("Olá, mundo");
+}
+
+
+
+
 // Do While
 
-let saldo;
+// let saldo;
 //undefind
 
-do {
-  saldo = Number(prompt.question("Informe um saldo valido: "));
-} while (saldo < 0);
+// do {
+//   saldo = Number(prompt.question("Informe um saldo valido: "));
+// } while (saldo < 0);
 
-console.log(saldo)
+// console.log(saldo)
 
 
 

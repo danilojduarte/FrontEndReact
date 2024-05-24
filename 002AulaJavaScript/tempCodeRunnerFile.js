@@ -1,3 +1,5 @@
-const numeroAleatorio = parseInt(Math.random() * 10);
+const prompt = require("readline-sync");
 
-console.log(numeroAleatorio);
+while (true) {
+  console.log("Olá, mundo");
+}
