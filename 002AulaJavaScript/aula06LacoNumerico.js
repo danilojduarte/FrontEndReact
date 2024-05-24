@@ -1,18 +1,23 @@
 const prompt = require("readline-sync");
+// Percorrendo Strings com o for
+
+
+
+
 //Exemplo - 2
 
-let maiorNumero = 0;
-let numerInformado;
+// let maiorNumero = 0;
+// let numerInformado;
 
-for (let i = 1; i <= 5; i++) {
-  numerInformado = Number(prompt.question('Informe um numero positivo: '));
+// for (let i = 1; i <= 5; i++) {
+//   numerInformado = Number(prompt.question('Informe um numero positivo: '));
 
-  if (numerInformado > maiorNumero) {
-    maiorNumero = numerInformado;
-  }
-}
+//   if (numerInformado > maiorNumero) {
+//     maiorNumero = numerInformado;
+//   }
+// }
 
-console.log("Maior numero:", maiorNumero);
+// console.log("Maior numero:", maiorNumero);
 
 
 
