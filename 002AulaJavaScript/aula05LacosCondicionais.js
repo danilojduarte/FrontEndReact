@@ -1,10 +1,45 @@
 const prompt = require("readline-sync");
+
+// Do While
+
+let saldo;
+//undefind
+
+do {
+  saldo = Number(prompt.question("Informe um saldo valido: "));
+} while (saldo < 0);
+
+console.log(saldo)
+
+
+
+
+
+
 // Programa parama para gerar número aleatorio - exemplo03
 
-let qtdNotasValidas = 0; //Acmulador para saber a quantidade de notas;
-const numeroAleatorio = parseInt(Math.random() * 10);
+// const numeroAleatorio = parseInt(Math.random() * 10);
 
-console.log(numeroAleatorio);
+// // let quantidadeDeTentativas = 0;
+
+// let numeroDoUsuario = Number(
+//   prompt.question("Informe um número entre 0 e 10; ")
+// );
+
+// console.log(numeroAleatorio)
+
+// while (numeroAleatorio !== numeroDoUsuario) {
+//   console.log("Você errou o número! Tente novamente...");
+//   numeroDoUsuario = Number(
+//     prompt.question("Informe um número entre 0 e 10; "));
+// }
+
+// console.log("Parabéns! Você acertou! O número era", numeroAleatorio);
+
+
+
+
+
 
 
 
