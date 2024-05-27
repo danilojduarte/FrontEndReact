@@ -1,5 +1,8 @@
 const prompt = require("readline-sync");
-// Percorrendo Strings com o for
+// Percorrendo Strings com o for - exemplo 3
+
+const nome = 'Danilo'
+
 
 
 
