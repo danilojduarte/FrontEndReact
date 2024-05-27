@@ -1,7 +1,22 @@
 const prompt = require("readline-sync");
+// Aula de Arrays 
+const notasDoAluno = [10, 8, 5]
+const pessoa = ["Danilo", 39, 1.70, true]
+
+console.log(notasDoAluno);
+console.log(pessoa);
+
+
 // Percorrendo Strings com o for - exemplo 3
 
-const nome = 'Danilo'
+
+
+// console.log(nome.length)
+// const nome = 'Danilo'
+// for (let i = 0; i < nome.length; i++) {
+//   console.log(nome[i]);
+// }
+
 
 
 
