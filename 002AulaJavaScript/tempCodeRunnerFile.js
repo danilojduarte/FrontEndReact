@@ -1,5 +1,8 @@
-const notasDoAluno = [10, 8, 5]
-const pessoa = ["Danilo", 39, 1.70, true]
+ function somar(numer1, numero2) {
+    return numer1 + numero2;
+  }
 
-console.log(notasDoAluno);
-console.log(pessoa);
+  const resultado = somar(2, 3);
+
+  console.log(resultado);
+  console.log(resultado / 2);
