@@ -6,27 +6,28 @@ const prompt = require("readline-sync");
 
 
 
+
 // Exemplo {2}
 
-  function somar(numer1, numero2) {
-    return numer1 + numero2;
-  }
+  // function somar(numer1, numero2) {
+  //   return numer1 + numero2;
+  // }
 
-  const resultado = somar(2, 3);
+  // const resultado = somar(2, 3);
 
-  console.log(resultado);
-  console.log(resultado / 2);
+  // console.log(resultado);
+  // console.log(resultado / 2);
 
 
 //Funções {1} - Finalizado parte 1 - Iniciando parte II
 // Exemplo {1}
-function saudacao(nomeDoEstudante, curso = "Front-end em React") {
+// function saudacao(nomeDoEstudante, curso = "Front-end em React") {
   //tamplate string Ou tamplete literals
 
-  return `Olá, ${nomeDoEstudante}! Seja bem vindo ao curso de ${curso}`;
-}
+//   return `Olá, ${nomeDoEstudante}! Seja bem vindo ao curso de ${curso}`;
+// }
 
-const mensagemDeSaudacao = saudacao("Danilo", "React"); // Chamada da function saudacao
+// const mensagemDeSaudacao = saudacao("Danilo", "React"); Chamada da function saudacao
 
-console.log(mensagemDeSaudacao);
+// console.log(mensagemDeSaudacao);
 
