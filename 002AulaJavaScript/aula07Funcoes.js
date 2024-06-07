@@ -1,4 +1,18 @@
 const prompt = require("readline-sync");
+//Iniciando estudos object Literal {Time 43:15}
+
+
+
+//  Iniciando Estudos Com Arrow Functions 
+  
+
+// const subtrair = (numero1, numero2) => {
+//   return numero1 - numero2;
+//   };
+
+
+
+
 // Iniciando Parte II Funções Anonimas (time - )
 
 // const dobroDoNumero = function (numero) {
