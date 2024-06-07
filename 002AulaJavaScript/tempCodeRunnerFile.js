@@ -1,8 +1,6 @@
- function somar(numer1, numero2) {
-    return numer1 + numero2;
-  }
+const dobroDoNumero = function (numero) {
+  return numero * 2
+}
 
-  const resultado = somar(2, 3);
-
-  console.log(resultado);
-  console.log(resultado / 2);
+const dobro = dobroDoNumero(2);
+console.log(dobro);

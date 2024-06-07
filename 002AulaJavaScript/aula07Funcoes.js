@@ -1,7 +1,12 @@
 const prompt = require("readline-sync");
-// Iniciando Parte II Funções Anonimas (time-27:11)
+// Iniciando Parte II Funções Anonimas (time - )
 
+// const dobroDoNumero = function (numero) {
+//   return numero * 2
+// }
 
+// const dobro = dobroDoNumero(2);
+// console.log(dobro);
 
 
 
