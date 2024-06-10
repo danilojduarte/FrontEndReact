@@ -7,10 +7,16 @@ const pessoa = {
   idade: 39, 
   altura: 1.69, 
   EhProgramador: true, 
-}
+};
+
+//atribuindo novos campos
+pessoa.profissao = 'Desenvolvedor';
+//alterando campos
+pessoa.nome = 'Danilo Duarte';
+//Deletando atributo
+delete pessoa.altura;
 
 console.log(pessoa);
-
 console.log(pessoa.nome);
 
 
