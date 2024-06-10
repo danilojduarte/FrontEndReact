@@ -2,17 +2,14 @@ const prompt = require("readline-sync");
 //Iniciando estudos object Literal {Time 43:15}
 // const array = ['Danilo', 39, 1.70, true]
 
-const pessoa = { 
-  nome: 'Danilo', 
-  idade: 39, 
-  altura: 1.69, 
-  EhProgramador: true, 
-};
+function funcao(array) {
+  let acc = 0;
 
-//atribuindo novos campos
-pessoa.profissao = 'Desenvolvedor';
-//alterando campos
-pessoa.nome = 'Danilo Duarte';
+  for (let elemento of array) {
+    acc += elemento;
+  }
 
-console.log(pessoa);
-console.log(pessoa.nome);
+  return (acc / array.length);
+}
+
+console.log(funcao([4, 6, 4, 2]));
