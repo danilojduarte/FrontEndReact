@@ -1,6 +1,14 @@
-const dobroDoNumero = function (numero) {
-  return numero * 2
+const prompt = require("readline-sync");
+//Iniciando estudos object Literal {Time 43:15}
+// const array = ['Danilo', 39, 1.70, true]
+
+const pessoa = { 
+  nome: 'Danilo', 
+  idade: 39, 
+  altura: 1.69, 
+  EhProgramador: true, 
 }
 
-const dobro = dobroDoNumero(2);
-console.log(dobro);
+console.log(pessoa);
+
+console.log(pessoa.nome);
