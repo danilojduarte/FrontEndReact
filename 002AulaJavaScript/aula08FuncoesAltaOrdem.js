@@ -1,4 +1,5 @@
 const prompt = require("readline-sync");
+// Iniciando {Funções de alta ordem utilizando arrays Time = 32:00}
 
 // Aula 08 - Funçoes de Alta Ordem
 // HIGH ORDER FUNCTIONS;
@@ -6,15 +7,15 @@ const prompt = require("readline-sync");
 // 2º Função que recebe outra função como parâmetro;
 
 // 1º Caso => Função que retornar outra função como parâmetro;
-function welcome(couserName) {
-  return (studentName) => {
-    console.log(
-      `Olá, ${studentName}! Seja bem-vinda(o) ao curso de ${couserName}!`
-    );
-  };
-};
+// function welcome(couserName) {
+//   return (studentName) => {
+//     console.log(
+//       `Olá, ${studentName}! Seja bem-vinda(o) ao curso de ${couserName}!`
+//     );
+//   };
+// };
 
-const displayWelcomeToFrontEndCourse = welcome("Front-end em react");
+// const displayWelcomeToFrontEndCourse = welcome("Front-end em react");
 
-displayWelcomeToFrontEndCourse("Danilo")
+// displayWelcomeToFrontEndCourse("Danilo")
 
